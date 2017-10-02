@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 20px auto;
+  background: #360033;
+  background: -webkit-radial-gradient(circle at 50%, #0b8793, #360033);
+  background: radial-gradient(circle at 50%, #0b8793, #360033);
+  background-repeat: no-repeat;
+}
+
+.eightBall {
+  position: relative;
+  left: 80%;
+  width: 100%;
+  height:100%;
+  margin: 0;
+  border-radius: 50%;
+  background: black;
+  background: url('https://rawgit.com/johneckert/b9203d9b0205e3d2b012e9f9dea388cc/raw/88e11db0b1c2c9d2167e9e6c55619144e9eeb2d5/8BallV3.svg') repeat-x;
+  background-size: auto 100%;
+  background-position: 0px 0;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+}
+
+.fortuneTile {
+  position: absolute;
+  left: 35%;
+  top: 35%;
+  width: 30%;
+  height:30%;
+  margin: 0;
+  background-position: center;
+}
+
+.gleam {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 50%;
+  position: absolute;
+  background: white;
+  background:
+ url('https://cdn.rawgit.com/johneckert/63b5f68eb4c3a59adf00420a97dbb325/raw/83968c2cb18d5e02f444e9984e3c90837ceea141/tingGradient.svg')
+}
+
+.shadow {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0) 60%);
+  background: -webkit-radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0) 60%);
+  background: -o-radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0) 60%);
+  background: -moz-radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0) 60%);
+
+  transform: rotateX(100deg) translateZ(-200px); */
+  -webkit-transform: rotateX(100deg) translateZ(-200px);
+  -o-transform: rotateX(100deg) translateZ(-200px);
+  -moz-transform: rotateX(100deg) translateZ(-200px);
+  -ms-transform: rotateX(100deg) translateZ(-200px);
+}
+
+#stage {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  perspective: 350px;
+  -webkit-perspective: 350px;
+  -moz-perspective: 350px;
+  perspective-origin: 80% 50%;
+  -webkit-perspective-origin: 80% 50%;
+  -moz-perspective-origin: 80% 50%;
+
+}
+
+#reset {
+  font-family: 'Electrolize';
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 0%;
+  position: relative;
+  top:100%;
+  margin: 60px 0 0 0;
+  left: 120%;
+  border: 2px solid #FFFFFF;
+  width: 20%;
+  background-color: transparent;
+  color: white;
+}
+
+#start_btn {
+  font-family: 'Electrolize';
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 0%;
+  position: relative;
+  margin: 20px 0 0 0;
+  border: 2px solid #FFFFFF;
+  width: 20%;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+button {
+  user-select: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+#welcome {
+  z-index: 1;
+  position: absolute;
+  border: 2px solid #000000;
+  text-align: center;
+  padding: 10% 10% 12% 10%;
+  width: 80%;
+  height: 100%;
+  color: white;
+  background-color: black;
+  left: 0%;
+  top: 0%;
+
+}
+
+h1 {
+  font-family: 'Electrolize', cursive;
+  padding: 0 0 0 0;
+  font-size: 60px;
+
+
+
+}
+
+p {
+  font-family: 'Dosis', sans-serif;
+  padding: 0 0 0 0;
+  font-size: 24px;
+
+}
