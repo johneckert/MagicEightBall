@@ -7,7 +7,7 @@ WARNING: This program can not actually tell the future.
 
 [View Demo](https://johneckert.github.io/MagicEightBall/index)
 
-##To Do:
+## To Do:
 
 1. Make Reset Button Work
 2. Make work with touch actions.
