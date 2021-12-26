@@ -91,7 +91,7 @@ function getAnswer(seed) {
     `url('https://gist.githubusercontent.com/johneckert/c4f155739024b61b0a9eeb477cc9892a/raw/766ca50effb1280ee29426e1a41bfb2f7ed24633/tileTen.svg')`,
     `url('https://gist.githubusercontent.com/johneckert/b300bc50e5a76d8b9aec062af3ea4e17/raw/692dcbc81a8e319285c37cdc989e459857530f9c/tileEleven.svg')`,
     `url('https://gist.githubusercontent.com/johneckert/ba5313aa391f1335d91b395628a93416/raw/ada3e06320c2057d8f347328909172ecc79659f9/tileTwelve.svg')`,
-    `url('hhttps://gist.githubusercontent.com/johneckert/908c52b47edb819ed53d3ac3d6b0456a/raw/206d8e2e55b516c4ba95be2ac5016b24bfd6b8da/tileThirteen.svg')`,
+    `url('https://gist.githubusercontent.com/johneckert/908c52b47edb819ed53d3ac3d6b0456a/raw/206d8e2e55b516c4ba95be2ac5016b24bfd6b8da/tileThirteen.svg')`,
     `url('https://gist.githubusercontent.com/johneckert/02fdf4ffcc6083aa5f30593d35c4a9a1/raw/016fa06b6a07b395346f1e19600a8d38f8066e49/tileFourteen.svg')`,
     `url('https://gist.githubusercontent.com/johneckert/ba979b5ef1f75eacba0c6f33b7710b28/raw/d1b8c7661b2437e87ebadb7f59043298a274b350/tileFifteen.svg')`,
     `url('https://gist.githubusercontent.com/johneckert/32a32ebe429c520c550d1e712bff93d8/raw/763d490e78e2143622d09cbe7225d79092709fe3/tileSixteen.svg')`,
